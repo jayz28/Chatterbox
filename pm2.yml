@@ -1,0 +1,6 @@
+---
+  - script: /var/local/Chatterbox/index.js
+    name: 'chatterbox'
+    merge_logs: true
+    out_file: '/var/log/chatterbox.log'
+    error_file: '/var/log/chatterbox.log'
